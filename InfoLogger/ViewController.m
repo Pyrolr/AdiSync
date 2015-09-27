@@ -14,14 +14,47 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+// ---------------------------------------------------------------------
+
+#pragma mark - Memory Managment Methods
+
+// ---------------------------------------------------------------------
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+// ---------------------------------------------------------------------
+
+
+- (void) dealloc {
+    
+}
+
+// ---------------------------------------------------------------------
+
+#pragma mark - Custom Methods
+
+// ---------------------------------------------------------------------
+
+- (void) baseSetup {
+  
+}
+
+// ---------------------------------------------------------------------
+
+#pragma mark - VC Life Cycle Methods
+
+// ---------------------------------------------------------------------
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self baseSetup];
+    // Do any additional setup after loading the view.
+}
+
+// ---------------------------------------------------------------------
 
 @end

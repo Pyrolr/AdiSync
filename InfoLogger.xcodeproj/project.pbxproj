@@ -15,6 +15,7 @@
 		5664ECBE1BB7250D00C119B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5664ECBC1BB7250D00C119B6 /* LaunchScreen.storyboard */; };
 		5664ECC91BB7250D00C119B6 /* InfoLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5664ECC81BB7250D00C119B6 /* InfoLoggerTests.m */; };
 		5664ECD41BB7250D00C119B6 /* InfoLoggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5664ECD31BB7250D00C119B6 /* InfoLoggerUITests.m */; };
+		5664ECE31BB7254C00C119B6 /* LogWritter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5664ECE21BB7254C00C119B6 /* LogWritter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5664ECCF1BB7250D00C119B6 /* InfoLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfoLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5664ECD31BB7250D00C119B6 /* InfoLoggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoLoggerUITests.m; sourceTree = "<group>"; };
 		5664ECD51BB7250D00C119B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5664ECE11BB7254C00C119B6 /* LogWritter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogWritter.h; sourceTree = "<group>"; };
+		5664ECE21BB7254C00C119B6 /* LogWritter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogWritter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5664ECBC1BB7250D00C119B6 /* LaunchScreen.storyboard */,
 				5664ECBF1BB7250D00C119B6 /* Info.plist */,
 				5664ECAE1BB7250D00C119B6 /* Supporting Files */,
+				5664ECE11BB7254C00C119B6 /* LogWritter.h */,
+				5664ECE21BB7254C00C119B6 /* LogWritter.m */,
 			);
 			path = InfoLogger;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				5664ECB61BB7250D00C119B6 /* ViewController.m in Sources */,
 				5664ECB31BB7250D00C119B6 /* AppDelegate.m in Sources */,
+				5664ECE31BB7254C00C119B6 /* LogWritter.m in Sources */,
 				5664ECB01BB7250D00C119B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
